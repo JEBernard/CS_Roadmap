@@ -1,0 +1,14 @@
+C:\Users\JEBernard\Desktop\IST\Chapter 3\MyStore\MyStore\bin\Debug\MyStore.exe.config
+C:\Users\JEBernard\Desktop\IST\Chapter 3\MyStore\MyStore\bin\Debug\MyStore.exe
+C:\Users\JEBernard\Desktop\IST\Chapter 3\MyStore\MyStore\bin\Debug\MyStore.pdb
+C:\Users\JEBernard\Desktop\IST\Chapter 3\MyStore\MyStore\bin\Debug\MyStore.xml
+C:\Users\JEBernard\Desktop\IST\Chapter 3\MyStore\MyStore\obj\Debug\MyStore.Form1.resources
+C:\Users\JEBernard\Desktop\IST\Chapter 3\MyStore\MyStore\obj\Debug\MyStore.Resources.resources
+C:\Users\JEBernard\Desktop\IST\Chapter 3\MyStore\MyStore\obj\Debug\MyStore.vbproj.GenerateResource.Cache
+C:\Users\JEBernard\Desktop\IST\Chapter 3\MyStore\MyStore\obj\Debug\MyStore.exe
+C:\Users\JEBernard\Desktop\IST\Chapter 3\MyStore\MyStore\obj\Debug\MyStore.xml
+C:\Users\JEBernard\Desktop\IST\Chapter 3\MyStore\MyStore\obj\Debug\MyStore.pdb
+C:\Users\JEBernard\Desktop\IST\Chapter 3\MyStore\MyStore\bin\Debug\af\MyStore.resources.dll
+C:\Users\JEBernard\Desktop\IST\Chapter 3\MyStore\MyStore\obj\Debug\MyStore.Form1.af.resources
+C:\Users\JEBernard\Desktop\IST\Chapter 3\MyStore\MyStore\obj\Debug\af\MyStore.resources.dll
+C:\Users\JEBernard\Desktop\IST\Chapter 3\MyStore\MyStore\obj\Debug\MyStore.Form2.resources
