@@ -1,0 +1,44 @@
+<!-- OrderForm.html		Jason Bernard --> 
+<!-- Project 2b 	  		      -->
+<!-- Calculate Order Total 		      --> 
+<!-- ======================================== -->
+
+<!doctype html>
+<html>
+
+<title>
+Amazin Online Book Sales 
+</title>
+<script type="text/javascript" src="onlinebooksales-script.js">    <!-- External Javascript file -->
+</script>	
+
+<body>
+
+<h2> Online Order Form </h2>
+<table> 
+	<tr><td>Title</td><td><input type="text" id="title" size=12 value=""></td><td>Name</td><td><input type="text" id="name" size=12 value=""></td></tr>
+	<tr><td>Quantity</td><td><input type="text" id="quantity" size=12 value=""></td><td>Address</td><td><input type="text" id="address" size=12 value=""></td></tr>
+	<tr><td>Price</td><td><input type="text" id="price" size=12 value=""></td><td>City, State</td><td><input type="text" id="cityState" size=12 value=""></td></tr>
+	<tr><td>Shipping</td><td><input type="text" id="shipping" size=12 value=""></td><td>Zip Code</td><td><input type="text" id="zip" size=12 value=""></td></tr>
+</table>
+
+<tr><td><input type="button" value="Calculate"      
+	onclick="Calculate()";</td>
+<td><input type="button" value="Clear" 
+	onclick="Clear()";</td></tr> 
+
+<hr>
+
+
+<table> 
+	<tr><td>Sub Total</td><td><input type="text" id="subTotal" size=12 value=""></td></tr>
+	<tr><td>Sales Tax</td><td><input type="text" id="salesTax" size=12 value=""></td></tr>
+	<tr><td>Order Total</td><td><input type="text" id="orderTotal" size=12 value=""></td></tr>
+	<tr><td>Order Summary</td><td><input type="text" id="orderSum" size=90 value=""></td></tr>
+	<tr><td>Shipping Address</td><td><input type="text" id="shippingAddress" size=90 value=""></td></tr>
+
+</table>
+
+</body>
+
+</html>
