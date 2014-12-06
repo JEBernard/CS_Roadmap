@@ -1,0 +1,10 @@
+C:\Users\JEBernard\Desktop\IST\Chapter 5\Rock Paper Scissors\Rock Paper Scissors\bin\Debug\Rock Paper Scissors.exe.config
+C:\Users\JEBernard\Desktop\IST\Chapter 5\Rock Paper Scissors\Rock Paper Scissors\bin\Debug\Rock Paper Scissors.exe
+C:\Users\JEBernard\Desktop\IST\Chapter 5\Rock Paper Scissors\Rock Paper Scissors\bin\Debug\Rock Paper Scissors.pdb
+C:\Users\JEBernard\Desktop\IST\Chapter 5\Rock Paper Scissors\Rock Paper Scissors\bin\Debug\Rock Paper Scissors.xml
+C:\Users\JEBernard\Desktop\IST\Chapter 5\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.Form1.resources
+C:\Users\JEBernard\Desktop\IST\Chapter 5\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.Resources.resources
+C:\Users\JEBernard\Desktop\IST\Chapter 5\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.vbproj.GenerateResource.Cache
+C:\Users\JEBernard\Desktop\IST\Chapter 5\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.exe
+C:\Users\JEBernard\Desktop\IST\Chapter 5\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.xml
+C:\Users\JEBernard\Desktop\IST\Chapter 5\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.pdb

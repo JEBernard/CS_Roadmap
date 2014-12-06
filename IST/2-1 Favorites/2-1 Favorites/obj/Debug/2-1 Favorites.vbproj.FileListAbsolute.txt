@@ -1,0 +1,3 @@
+C:\Users\JEBernard\Desktop\IST\2-1 Favorites\2-1 Favorites\2-1 Favorites\obj\Debug\_2_1_Favorites.frmTitle.resources
+C:\Users\JEBernard\Desktop\IST\2-1 Favorites\2-1 Favorites\2-1 Favorites\obj\Debug\_2_1_Favorites.Resources.resources
+C:\Users\JEBernard\Desktop\IST\2-1 Favorites\2-1 Favorites\2-1 Favorites\obj\Debug\2-1 Favorites.vbproj.GenerateResource.Cache
