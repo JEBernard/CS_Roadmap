@@ -116,6 +116,15 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\large1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\packers_logo_color_gradient-500x500.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

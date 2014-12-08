@@ -1,1 +1,10 @@
 C:\Users\JEBernard\Desktop\IST\Chapter 6\Big Event Calculator\Big Event Calculator\bin\Debug\Big Event Calculator.exe.config
+C:\Users\JEBernard\Desktop\IST\Chapter 6\Big Event Calculator\Big Event Calculator\bin\Debug\Big Event Calculator.exe
+C:\Users\JEBernard\Desktop\IST\Chapter 6\Big Event Calculator\Big Event Calculator\bin\Debug\Big Event Calculator.pdb
+C:\Users\JEBernard\Desktop\IST\Chapter 6\Big Event Calculator\Big Event Calculator\bin\Debug\Big Event Calculator.xml
+C:\Users\JEBernard\Desktop\IST\Chapter 6\Big Event Calculator\Big Event Calculator\obj\Debug\Big_Event_Calculator.Form1.resources
+C:\Users\JEBernard\Desktop\IST\Chapter 6\Big Event Calculator\Big Event Calculator\obj\Debug\Big_Event_Calculator.Resources.resources
+C:\Users\JEBernard\Desktop\IST\Chapter 6\Big Event Calculator\Big Event Calculator\obj\Debug\Big Event Calculator.vbproj.GenerateResource.Cache
+C:\Users\JEBernard\Desktop\IST\Chapter 6\Big Event Calculator\Big Event Calculator\obj\Debug\Big Event Calculator.exe
+C:\Users\JEBernard\Desktop\IST\Chapter 6\Big Event Calculator\Big Event Calculator\obj\Debug\Big Event Calculator.xml
+C:\Users\JEBernard\Desktop\IST\Chapter 6\Big Event Calculator\Big Event Calculator\obj\Debug\Big Event Calculator.pdb
