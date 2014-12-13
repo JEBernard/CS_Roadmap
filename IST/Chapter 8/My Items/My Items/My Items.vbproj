@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4647C17A-0320-49BC-A67F-79A7C67158C5}</ProjectGuid>
+    <ProjectGuid>{07C6C6B6-2ADF-46F4-B6C4-5E8CF0853AE0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Stormazon.My.MyApplication</StartupObject>
-    <RootNamespace>Stormazon</RootNamespace>
-    <AssemblyName>Stormazon</AssemblyName>
+    <StartupObject>My_Items.My.MyApplication</StartupObject>
+    <RootNamespace>My_Items</RootNamespace>
+    <AssemblyName>My Items</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
@@ -20,7 +20,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Stormazon.xml</DocumentationFile>
+    <DocumentationFile>My Items.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -30,7 +30,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Stormazon.xml</DocumentationFile>
+    <DocumentationFile>My Items.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -77,25 +77,6 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form2.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmAbout.Designer.vb">
-      <DependentUpon>frmAbout.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmAbout.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSides.Designer.vb">
-      <DependentUpon>frmSides.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmSides.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -111,34 +92,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Pizza.Designer.vb">
-      <DependentUpon>Pizza.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Pizza.vb">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmAbout.resx">
-      <DependentUpon>frmAbout.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmSides.resx">
-      <DependentUpon>frmSides.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Pizza.resx">
-      <DependentUpon>Pizza.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -152,42 +112,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\article-2166193-13D6EDC3000005DC-154_306x545.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\0004900001477_A.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Diet-Coke-330ml-500x500.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\vanilla_coke.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Cheese-Pizza.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cheesy-hamburger-pizza.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Taco-Pizza-close.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\06.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\mozzarella_sticks.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\getty_rf_photo_of_penne_pasta.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\New-Breadsticks_sm.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

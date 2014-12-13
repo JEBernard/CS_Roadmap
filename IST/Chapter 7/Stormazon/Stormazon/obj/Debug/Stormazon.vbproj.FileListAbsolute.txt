@@ -1,1 +1,14 @@
 E:\repositories\CS_Roadmap\IST\Chapter 7\Stormazon\Stormazon\bin\Debug\Stormazon.exe.config
+E:\repositories\CS_Roadmap\IST\Chapter 7\Stormazon\Stormazon\bin\Debug\Stormazon.exe
+E:\repositories\CS_Roadmap\IST\Chapter 7\Stormazon\Stormazon\bin\Debug\Stormazon.pdb
+E:\repositories\CS_Roadmap\IST\Chapter 7\Stormazon\Stormazon\bin\Debug\Stormazon.xml
+E:\repositories\CS_Roadmap\IST\Chapter 7\Stormazon\Stormazon\obj\Debug\Stormazon.frmStartUp.resources
+E:\repositories\CS_Roadmap\IST\Chapter 7\Stormazon\Stormazon\obj\Debug\Stormazon.Resources.resources
+E:\repositories\CS_Roadmap\IST\Chapter 7\Stormazon\Stormazon\obj\Debug\Stormazon.vbproj.GenerateResource.Cache
+E:\repositories\CS_Roadmap\IST\Chapter 7\Stormazon\Stormazon\obj\Debug\Stormazon.exe
+E:\repositories\CS_Roadmap\IST\Chapter 7\Stormazon\Stormazon\obj\Debug\Stormazon.xml
+E:\repositories\CS_Roadmap\IST\Chapter 7\Stormazon\Stormazon\obj\Debug\Stormazon.pdb
+E:\repositories\CS_Roadmap\IST\Chapter 7\Stormazon\Stormazon\obj\Debug\Stormazon.frmSoftDrinks.resources
+E:\repositories\CS_Roadmap\IST\Chapter 7\Stormazon\Stormazon\obj\Debug\Stormazon.frmPizza.resources
+E:\repositories\CS_Roadmap\IST\Chapter 7\Stormazon\Stormazon\obj\Debug\Stormazon.frmAbout.resources
+E:\repositories\CS_Roadmap\IST\Chapter 7\Stormazon\Stormazon\obj\Debug\Stormazon.frmSides.resources
