@@ -28,6 +28,9 @@ Partial Class frmStartUp
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProductsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SoftDrinksToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PizzaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SidesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.lblGrand = New System.Windows.Forms.Label()
@@ -39,9 +42,6 @@ Partial Class frmStartUp
         Me.lblTax = New System.Windows.Forms.Label()
         Me.lblShipping2 = New System.Windows.Forms.Label()
         Me.lblGrandTotal = New System.Windows.Forms.Label()
-        Me.SoftDrinksToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PizzaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SidesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -77,7 +77,7 @@ Partial Class frmStartUp
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.ProductsToolStripMenuItem, Me.HelpToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(540, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(547, 24)
         Me.MenuStrip1.TabIndex = 3
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -94,6 +94,24 @@ Partial Class frmStartUp
         Me.ProductsToolStripMenuItem.Size = New System.Drawing.Size(66, 20)
         Me.ProductsToolStripMenuItem.Text = "Products"
         '
+        'SoftDrinksToolStripMenuItem
+        '
+        Me.SoftDrinksToolStripMenuItem.Name = "SoftDrinksToolStripMenuItem"
+        Me.SoftDrinksToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.SoftDrinksToolStripMenuItem.Text = "Soft Drinks"
+        '
+        'PizzaToolStripMenuItem
+        '
+        Me.PizzaToolStripMenuItem.Name = "PizzaToolStripMenuItem"
+        Me.PizzaToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.PizzaToolStripMenuItem.Text = "Pizza"
+        '
+        'SidesToolStripMenuItem
+        '
+        Me.SidesToolStripMenuItem.Name = "SidesToolStripMenuItem"
+        Me.SidesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.SidesToolStripMenuItem.Text = "Sides"
+        '
         'HelpToolStripMenuItem
         '
         Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutToolStripMenuItem})
@@ -104,7 +122,7 @@ Partial Class frmStartUp
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'lblGrand
@@ -184,24 +202,6 @@ Partial Class frmStartUp
         Me.lblGrandTotal.Size = New System.Drawing.Size(0, 13)
         Me.lblGrandTotal.TabIndex = 12
         '
-        'SoftDrinksToolStripMenuItem
-        '
-        Me.SoftDrinksToolStripMenuItem.Name = "SoftDrinksToolStripMenuItem"
-        Me.SoftDrinksToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.SoftDrinksToolStripMenuItem.Text = "Soft Drinks"
-        '
-        'PizzaToolStripMenuItem
-        '
-        Me.PizzaToolStripMenuItem.Name = "PizzaToolStripMenuItem"
-        Me.PizzaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.PizzaToolStripMenuItem.Text = "Pizza"
-        '
-        'SidesToolStripMenuItem
-        '
-        Me.SidesToolStripMenuItem.Name = "SidesToolStripMenuItem"
-        Me.SidesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.SidesToolStripMenuItem.Text = "Sides"
-        '
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
@@ -216,7 +216,7 @@ Partial Class frmStartUp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(540, 301)
+        Me.ClientSize = New System.Drawing.Size(547, 311)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.lblGrandTotal)
         Me.Controls.Add(Me.lblShipping2)

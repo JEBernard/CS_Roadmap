@@ -12,3 +12,17 @@ C:\Users\JEBernard\Desktop\IST\Chapter 3\MyStore\MyStore\bin\Debug\af\MyStore.re
 C:\Users\JEBernard\Desktop\IST\Chapter 3\MyStore\MyStore\obj\Debug\MyStore.Form1.af.resources
 C:\Users\JEBernard\Desktop\IST\Chapter 3\MyStore\MyStore\obj\Debug\af\MyStore.resources.dll
 C:\Users\JEBernard\Desktop\IST\Chapter 3\MyStore\MyStore\obj\Debug\MyStore.Form2.resources
+E:\repositories\CS_Roadmap\IST\Chapter 3\MyStore\MyStore\bin\Debug\MyStore.exe.config
+E:\repositories\CS_Roadmap\IST\Chapter 3\MyStore\MyStore\obj\Debug\MyStore.exe
+E:\repositories\CS_Roadmap\IST\Chapter 3\MyStore\MyStore\obj\Debug\MyStore.xml
+E:\repositories\CS_Roadmap\IST\Chapter 3\MyStore\MyStore\obj\Debug\MyStore.pdb
+E:\repositories\CS_Roadmap\IST\Chapter 3\MyStore\MyStore\bin\Debug\MyStore.exe
+E:\repositories\CS_Roadmap\IST\Chapter 3\MyStore\MyStore\bin\Debug\MyStore.pdb
+E:\repositories\CS_Roadmap\IST\Chapter 3\MyStore\MyStore\bin\Debug\MyStore.xml
+E:\repositories\CS_Roadmap\IST\Chapter 3\MyStore\MyStore\bin\Debug\af\MyStore.resources.dll
+E:\repositories\CS_Roadmap\IST\Chapter 3\MyStore\MyStore\obj\Debug\MyStore.Form1.resources
+E:\repositories\CS_Roadmap\IST\Chapter 3\MyStore\MyStore\obj\Debug\MyStore.Form2.resources
+E:\repositories\CS_Roadmap\IST\Chapter 3\MyStore\MyStore\obj\Debug\MyStore.Resources.resources
+E:\repositories\CS_Roadmap\IST\Chapter 3\MyStore\MyStore\obj\Debug\MyStore.Form1.af.resources
+E:\repositories\CS_Roadmap\IST\Chapter 3\MyStore\MyStore\obj\Debug\MyStore.vbproj.GenerateResource.Cache
+E:\repositories\CS_Roadmap\IST\Chapter 3\MyStore\MyStore\obj\Debug\af\MyStore.resources.dll
