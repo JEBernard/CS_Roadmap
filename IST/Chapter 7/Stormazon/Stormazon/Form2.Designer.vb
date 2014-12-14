@@ -22,56 +22,20 @@ Partial Class frmSoftDrinks
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.chkClassic = New System.Windows.Forms.CheckBox()
-        Me.chkVanilla = New System.Windows.Forms.CheckBox()
-        Me.chkDiet = New System.Windows.Forms.CheckBox()
-        Me.chkCherry = New System.Windows.Forms.CheckBox()
         Me.btnAddDrinks = New System.Windows.Forms.Button()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.rbClassic = New System.Windows.Forms.RadioButton()
+        Me.rbDiet = New System.Windows.Forms.RadioButton()
+        Me.rbCherry = New System.Windows.Forms.RadioButton()
+        Me.rbVanilla = New System.Windows.Forms.RadioButton()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'chkClassic
-        '
-        Me.chkClassic.AutoSize = True
-        Me.chkClassic.Location = New System.Drawing.Point(12, 45)
-        Me.chkClassic.Name = "chkClassic"
-        Me.chkClassic.Size = New System.Drawing.Size(15, 14)
-        Me.chkClassic.TabIndex = 5
-        Me.chkClassic.UseVisualStyleBackColor = True
-        '
-        'chkVanilla
-        '
-        Me.chkVanilla.AutoSize = True
-        Me.chkVanilla.Location = New System.Drawing.Point(158, 162)
-        Me.chkVanilla.Name = "chkVanilla"
-        Me.chkVanilla.Size = New System.Drawing.Size(15, 14)
-        Me.chkVanilla.TabIndex = 6
-        Me.chkVanilla.UseVisualStyleBackColor = True
-        '
-        'chkDiet
-        '
-        Me.chkDiet.AutoSize = True
-        Me.chkDiet.Location = New System.Drawing.Point(158, 45)
-        Me.chkDiet.Name = "chkDiet"
-        Me.chkDiet.Size = New System.Drawing.Size(15, 14)
-        Me.chkDiet.TabIndex = 7
-        Me.chkDiet.UseVisualStyleBackColor = True
-        '
-        'chkCherry
-        '
-        Me.chkCherry.AutoSize = True
-        Me.chkCherry.Location = New System.Drawing.Point(12, 162)
-        Me.chkCherry.Name = "chkCherry"
-        Me.chkCherry.Size = New System.Drawing.Size(15, 14)
-        Me.chkCherry.TabIndex = 8
-        Me.chkCherry.UseVisualStyleBackColor = True
         '
         'btnAddDrinks
         '
@@ -122,16 +86,60 @@ Partial Class frmSoftDrinks
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
+        'rbClassic
+        '
+        Me.rbClassic.AutoSize = True
+        Me.rbClassic.Location = New System.Drawing.Point(12, 45)
+        Me.rbClassic.Name = "rbClassic"
+        Me.rbClassic.Size = New System.Drawing.Size(28, 17)
+        Me.rbClassic.TabIndex = 11
+        Me.rbClassic.TabStop = True
+        Me.rbClassic.Text = " "
+        Me.rbClassic.UseVisualStyleBackColor = True
+        '
+        'rbDiet
+        '
+        Me.rbDiet.AutoSize = True
+        Me.rbDiet.Location = New System.Drawing.Point(155, 45)
+        Me.rbDiet.Name = "rbDiet"
+        Me.rbDiet.Size = New System.Drawing.Size(28, 17)
+        Me.rbDiet.TabIndex = 12
+        Me.rbDiet.TabStop = True
+        Me.rbDiet.Text = " "
+        Me.rbDiet.UseVisualStyleBackColor = True
+        '
+        'rbCherry
+        '
+        Me.rbCherry.AutoSize = True
+        Me.rbCherry.Location = New System.Drawing.Point(12, 167)
+        Me.rbCherry.Name = "rbCherry"
+        Me.rbCherry.Size = New System.Drawing.Size(28, 17)
+        Me.rbCherry.TabIndex = 13
+        Me.rbCherry.TabStop = True
+        Me.rbCherry.Text = " "
+        Me.rbCherry.UseVisualStyleBackColor = True
+        '
+        'rbVanilla
+        '
+        Me.rbVanilla.AutoSize = True
+        Me.rbVanilla.Location = New System.Drawing.Point(155, 167)
+        Me.rbVanilla.Name = "rbVanilla"
+        Me.rbVanilla.Size = New System.Drawing.Size(28, 17)
+        Me.rbVanilla.TabIndex = 14
+        Me.rbVanilla.TabStop = True
+        Me.rbVanilla.Text = " "
+        Me.rbVanilla.UseVisualStyleBackColor = True
+        '
         'frmSoftDrinks
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.Controls.Add(Me.rbVanilla)
+        Me.Controls.Add(Me.rbCherry)
+        Me.Controls.Add(Me.rbDiet)
+        Me.Controls.Add(Me.rbClassic)
         Me.Controls.Add(Me.btnAddDrinks)
-        Me.Controls.Add(Me.chkCherry)
-        Me.Controls.Add(Me.chkDiet)
-        Me.Controls.Add(Me.chkVanilla)
-        Me.Controls.Add(Me.chkClassic)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
@@ -150,9 +158,9 @@ Partial Class frmSoftDrinks
     Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
-    Friend WithEvents chkClassic As System.Windows.Forms.CheckBox
-    Friend WithEvents chkVanilla As System.Windows.Forms.CheckBox
-    Friend WithEvents chkDiet As System.Windows.Forms.CheckBox
-    Friend WithEvents chkCherry As System.Windows.Forms.CheckBox
     Friend WithEvents btnAddDrinks As System.Windows.Forms.Button
+    Friend WithEvents rbClassic As System.Windows.Forms.RadioButton
+    Friend WithEvents rbDiet As System.Windows.Forms.RadioButton
+    Friend WithEvents rbCherry As System.Windows.Forms.RadioButton
+    Friend WithEvents rbVanilla As System.Windows.Forms.RadioButton
 End Class

@@ -12,3 +12,4 @@ E:\repositories\CS_Roadmap\IST\Chapter 7\Stormazon\Stormazon\obj\Debug\Stormazon
 E:\repositories\CS_Roadmap\IST\Chapter 7\Stormazon\Stormazon\obj\Debug\Stormazon.frmPizza.resources
 E:\repositories\CS_Roadmap\IST\Chapter 7\Stormazon\Stormazon\obj\Debug\Stormazon.frmAbout.resources
 E:\repositories\CS_Roadmap\IST\Chapter 7\Stormazon\Stormazon\obj\Debug\Stormazon.frmSides.resources
+E:\repositories\CS_Roadmap\IST\Chapter 7\Stormazon\Stormazon\obj\Debug\Stormazon.vbprojResolveAssemblyReference.cache
