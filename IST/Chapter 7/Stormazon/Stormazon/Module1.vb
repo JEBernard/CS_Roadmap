@@ -133,7 +133,7 @@
 
     End Sub
 
-
+    'Add items to listbox on start up form
 
     Sub addPizza()
         'Add Pizza items to lisbox on the start up form 
@@ -146,6 +146,7 @@
             frmStartUp.lblNumber.Text = frmStartUp.intNumberOfItems
             frmStartUp.dblTotal += frmPizza.dblCheese + frmPizza.dblCheese * frmStartUp.dblTax
             frmStartUp.lblGrandTotal.Text = frmStartUp.dblTotal.ToString("C")
+            frmStartUp.CheckBox1.Enabled = True
 
         End If
         If frmPizza.chPepperoni.Checked Then
@@ -157,6 +158,7 @@
             frmStartUp.lblNumber.Text = frmStartUp.intNumberOfItems
             frmStartUp.dblTotal += frmPizza.dblPepperoni + frmPizza.dblPepperoni * frmStartUp.dblTax
             frmStartUp.lblGrandTotal.Text = frmStartUp.dblTotal.ToString("C")
+            frmStartUp.lstCart.Enabled = True
 
         End If
         If frmPizza.chkTaco.Checked Then

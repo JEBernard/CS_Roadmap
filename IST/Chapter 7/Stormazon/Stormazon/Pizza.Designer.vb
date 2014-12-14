@@ -26,7 +26,7 @@ Partial Class frmPizza
         Me.chPepperoni = New System.Windows.Forms.CheckBox()
         Me.chkTaco = New System.Windows.Forms.CheckBox()
         Me.chkCheese = New System.Windows.Forms.CheckBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnAddPizza = New System.Windows.Forms.Button()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
@@ -73,14 +73,14 @@ Partial Class frmPizza
         Me.chkCheese.TabIndex = 14
         Me.chkCheese.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btnAddPizza
         '
-        Me.Button1.Location = New System.Drawing.Point(40, 226)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(185, 23)
-        Me.Button1.TabIndex = 9
-        Me.Button1.Text = "Add Selected Items"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnAddPizza.Location = New System.Drawing.Point(40, 226)
+        Me.btnAddPizza.Name = "btnAddPizza"
+        Me.btnAddPizza.Size = New System.Drawing.Size(185, 23)
+        Me.btnAddPizza.TabIndex = 9
+        Me.btnAddPizza.Text = "Add Selected Items"
+        Me.btnAddPizza.UseVisualStyleBackColor = True
         '
         'PictureBox4
         '
@@ -135,7 +135,7 @@ Partial Class frmPizza
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnAddPizza)
         Me.Name = "frmPizza"
         Me.Text = "Pizza"
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
@@ -154,5 +154,5 @@ Partial Class frmPizza
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents btnAddPizza As System.Windows.Forms.Button
 End Class

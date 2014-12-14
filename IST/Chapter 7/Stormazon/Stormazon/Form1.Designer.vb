@@ -46,12 +46,12 @@ Partial Class frmStartUp
         Me.lblTax = New System.Windows.Forms.Label()
         Me.lblShipping2 = New System.Windows.Forms.Label()
         Me.lblGrandTotal = New System.Windows.Forms.Label()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.PizzaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.SoftDrinksToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.SidesToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.ContextMenuStrip2.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.ContextMenuStrip1.SuspendLayout()
@@ -237,16 +237,6 @@ Partial Class frmStartUp
         Me.lblGrandTotal.Size = New System.Drawing.Size(0, 13)
         Me.lblGrandTotal.TabIndex = 12
         '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(59, 272)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(137, 17)
-        Me.CheckBox1.TabIndex = 13
-        Me.CheckBox1.Text = "This order is for delivery"
-        Me.CheckBox1.UseVisualStyleBackColor = True
-        '
         'ContextMenuStrip1
         '
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PizzaToolStripMenuItem1, Me.SoftDrinksToolStripMenuItem1, Me.SidesToolStripMenuItem1, Me.ExitToolStripMenuItem1})
@@ -277,6 +267,16 @@ Partial Class frmStartUp
         Me.ExitToolStripMenuItem1.Name = "ExitToolStripMenuItem1"
         Me.ExitToolStripMenuItem1.Size = New System.Drawing.Size(131, 22)
         Me.ExitToolStripMenuItem1.Text = "Exit"
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(59, 272)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(137, 17)
+        Me.CheckBox1.TabIndex = 13
+        Me.CheckBox1.Text = "This order is for delivery"
+        Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'frmStartUp
         '
@@ -330,7 +330,6 @@ Partial Class frmStartUp
     Friend WithEvents SoftDrinksToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PizzaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SidesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
     Friend WithEvents ExitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ContextMenuStrip1 As System.Windows.Forms.ContextMenuStrip
     Friend WithEvents PizzaToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
@@ -339,5 +338,6 @@ Partial Class frmStartUp
     Friend WithEvents ContextMenuStrip2 As System.Windows.Forms.ContextMenuStrip
     Friend WithEvents RemoveItemToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
 
 End Class

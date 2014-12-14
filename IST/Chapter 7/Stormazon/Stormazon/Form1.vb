@@ -7,7 +7,12 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnRemoveItems.Click
         'Remove Selected Item from listbox and update the total
-        removeItems()
+        Try
+            removeItems()
+        Catch ex As Exception
+            MsgBox("No Item Selected")
+        End Try
+
     End Sub
 
     Private Sub SoftDrinksToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SoftDrinksToolStripMenuItem.Click
@@ -35,8 +40,7 @@
         ' if there are 3 items or less shipping is $9
         'if there are more than 3 and less than 6 items shipping is $6
         'if there are more than 6 items shipping is free
-        If CheckBox1.Checked Then
-            If lstCart.Items.Count <= 3 Then
+            If lstCart.Items.Count > 1 And lstCart.Items.Count <= 3 Then
                 dblDelivery = 9
                 lblShipping2.Text = dblDelivery.ToString("C")
                 dblTotal += dblDelivery
@@ -47,21 +51,25 @@
                 dblTotal += dblDelivery
             ElseIf lstCart.Items.Count > 6 Then
                 lblShipping2.Text = "Free"
+            Else
+                dblDelivery = 0
+                lblShipping2.Text = dblDelivery.ToString("C")
+                dblTotal -= dblDelivery
+                lblGrandTotal.Text = dblTotal.ToString("C")
             End If
-        Else
-            dblDelivery = 0
-            lblShipping2.Text = dblDelivery.ToString("C")
-        End If
+
     End Sub
 
     Private Sub frmStartUp_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Set these variables on form load
-        lblGrandTotal.Text = "0"
+        lblSubTotal.Text = dblSubTotal.ToString("C")
+        lblGrandTotal.Text = dblTotal.ToString("C")
         lblNumber.Text = intNumberOfItems
         lblTax.Text = "0.07%"
     End Sub
 
     Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
+        'Exit the program
         Me.Close()
     End Sub
 

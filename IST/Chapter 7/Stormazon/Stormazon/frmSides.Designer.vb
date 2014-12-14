@@ -26,7 +26,7 @@ Partial Class frmSides
         Me.chkPasta = New System.Windows.Forms.CheckBox()
         Me.chkMozz = New System.Windows.Forms.CheckBox()
         Me.chkBreadsticks = New System.Windows.Forms.CheckBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnAddSides = New System.Windows.Forms.Button()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
@@ -73,14 +73,14 @@ Partial Class frmSides
         Me.chkBreadsticks.TabIndex = 23
         Me.chkBreadsticks.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btnAddSides
         '
-        Me.Button1.Location = New System.Drawing.Point(45, 226)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(185, 23)
-        Me.Button1.TabIndex = 18
-        Me.Button1.Text = "Add Selected Items"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnAddSides.Location = New System.Drawing.Point(45, 226)
+        Me.btnAddSides.Name = "btnAddSides"
+        Me.btnAddSides.Size = New System.Drawing.Size(185, 23)
+        Me.btnAddSides.TabIndex = 18
+        Me.btnAddSides.Text = "Add Selected Items"
+        Me.btnAddSides.UseVisualStyleBackColor = True
         '
         'PictureBox4
         '
@@ -135,7 +135,7 @@ Partial Class frmSides
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnAddSides)
         Me.Name = "frmSides"
         Me.Text = "Sides"
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
@@ -154,5 +154,5 @@ Partial Class frmSides
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents btnAddSides As System.Windows.Forms.Button
 End Class
